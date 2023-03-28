@@ -40,7 +40,7 @@ Note:If you are a Mac user, you will have to download Microsoft RDP to be able t
 </p>
 <br />
 
-<p>
+Great!  Now that you are connected to your VM you will have to enable IIS (Internet Information Services). TO do so, 1-Access the Control Panel > 2-Program > 3-On the upper left hand side select "Turn Windows features On or Off" > 4- Enable the IIS (Internet Information Services) > 5-Expand the World Wide Web Services > 6-Expand Application Development features > 7-ticking on the CGI box.
 <img src="[https://imgur.com/a/LXBDfk4" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
