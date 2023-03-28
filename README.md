@@ -34,7 +34,9 @@ Welcome to this tutorial! Let's get started quickly by creating our resource gro
 <img src="https://i.imgur.com/quWtguU.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Now ,simply connect to our newly created VM via RDP using the VM public IPv4 address. 
+Note:If you are a Mac user, you will have to download Microsoft RDP to be able to remotely connect to the VM.
+<img src="https://i.imgur.com/jcHgeUc.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <br />
 
