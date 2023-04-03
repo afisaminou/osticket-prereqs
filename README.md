@@ -48,6 +48,8 @@ Note:If you are a Mac user, you will have to download Microsoft RDP to be able t
 <br />
 
 Great!  Now that you are connected to your VM you will have to enable **IIS (Internet Information Services)**. To do so, 1-Access the Control Panel > 2-Program > 3-On the upper left hand side select **"Turn Windows features On or Off"**> 4- Enable the **IIS** (Internet Information Services) > 5-Expand the World Wide Web Services > 6-Expand Application Development features > 7-Check the **CGI box and click OK to install**.
+
+
 <img src="https://i.imgur.com/WTZReTK.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
@@ -55,18 +57,88 @@ Perfect! Now that you have enabled IIS we need to install Web Platform Installer
 Simply click  the file and install the Web Platform Installer
 </p>
 <br />
-
 <p>
 <img src="https://i.imgur.com/nBYUaCi.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-
  
-
+From the installation files, install PHP Manager for IIS (PHPManagerForIIS_V1.5.0.msi)
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/NHm3jYC.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<br />
+From the installation files, install the Rewrite Module (rewrite_amd64_en-US.msi)
+
+<p>
+<img src="https://i.imgur.com/ONqi3c8.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<p></p>
+<br />
+Create the directory C:\PHP
+
+From the installation files, unzip PHP 7.3.8(phph-7.3.8-nts-Win32-VC15-x86.zip) into the C:/PHP directory you created.
+
+<p>
+<img src="https://i.imgur.com/q5e5xS1.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p></p>
+<br />
+From the installation files install VC_redist.x86.exe.
+
+<p>
+<img src="https://i.imgur.com/0HP8dI0.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p></p>
+<br />
+From the installation files install MySQL 5.5.62 (mysql-5.5.62-win32.msi)
+
+Typical Setup ->
+Launch Configuration Wizard (after install) ->
+Standard Configuration ->
+Password1
+
+<p>
+<img src="https://i.imgur.com/NHm3jYC.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p></p>
+<br />
+Typical Setup ->
+Launch Configuration Wizard (after install) ->
+Standard Configuration ->
+Password1
+
+<p>
+<img src="https://i.imgur.com/NHm3jYC.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p></p>
+<br />
+Typical Setup ->
+Launch Configuration Wizard (after install) ->
+Standard Configuration ->
+Password1
+
+<p>
+<img src="https://i.imgur.com/NHm3jYC.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p></p>
+<br />
+Typical Setup ->
+Launch Configuration Wizard (after install) ->
+Standard Configuration ->
+Password1
+
+<p>
+<img src="https://i.imgur.com/NHm3jYC.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p></p>
+<br />
+Typical Setup ->
+Launch Configuration Wizard (after install) ->
+Standard Configuration ->
+Password1
+
+<p>
+<img src="https://i.imgur.com/NHm3jYC.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p></p>
 <br />
