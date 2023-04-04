@@ -114,24 +114,67 @@ Password1
 <img src="https://i.imgur.com/fNTPqs0.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p></p>
-<br />
-Typical Setup ->
-Launch Configuration Wizard (after install) ->
-Standard Configuration ->
-Password1
-
 <p>
-<img src="https://i.imgur.com/NHm3jYC.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/GyjOR7a.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p></p>
 <br />
-Typical Setup ->
-Launch Configuration Wizard (after install) ->
-Standard Configuration ->
-Password1
+Install osTicket v1.15.8
+
+Go back into IIS manager and enable some extensions. To do this you have to go to Sites->Default->osTicket Then double click on PHP manager. Click on **Disable or enable an extension** Enable  "phph_imap" - "php_intl.dll"  &  "php_opcache.dll" then refresh the osTicket webserver and obsereve the changes.
 
 <p>
-<img src="https://i.imgur.com/NHm3jYC.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/4My1W0a.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p></p>
 <br />
+
+
+Go back into c:\inetpub\wwwroot\osTicket\include\ost-sampleconfig.php rename the file to c:\inetpub\wwwroot\osTicket\include\ost-config.php Assign permissions to ost-config.php Disable inheritance->Removeall New Permissions->Everyone->all
+<p>
+<img src="https://i.imgur.com/K8rJfTj.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p></p>
+<br />
+
+After changing the ost-config.php file and clicking continue and you should see the following screen
+
+<p>
+<img src="https://i.imgur.com/ezp9fFm.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p></p>Once the above information is filled in click save changes at the bottom of the screen
+<br />
+After saving you should see this screen. Click continue at the bottom of the screen
+
+<p>
+<img src="https://i.imgur.com/SafFTug.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p></p>
+<br />
+
+Congratulations! Your osTicket installation has been completed successfully.
+<p>
+<img src="https://i.imgur.com/8QmIKZo.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p></p>
+<br />
+
+From the installation files install HeidiSQL
+Open Heidi SQL
+Create a new session, root/Password1, Connect to the session, Create a database called “osTicket”, Click Open
+
+<img src="https://i.imgur.com/qcY4V4w.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p></p>
+<br />
+
+Success! You made it. You have installed osTicket! 
+
+<p>
+<img src="https://i.imgur.com/m0pfONL.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p></p>
+<br />
+Thank You for reading!
+For the the next tutorial in this series go[here](https://github.com/afisaminou/post-install-config/)
+</p>
