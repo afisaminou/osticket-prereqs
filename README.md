@@ -26,8 +26,6 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 - Azure Virtual Machine
 - osTicket Installation files
 - Heidi SQL
-- Item 4
-- Item 5
 
 <h2>Installation Steps</h2>
 Welcome to this tutorial!
@@ -176,6 +174,6 @@ Success! You made it. You have installed osTicket!
 <p></p>
 <br />
 Thank You for reading!
-For the the next tutorial in this series go [here] (https://github.com/afisaminou/post-install-config)
+For the the next tutorial in this series go [here](https://github.com/afisaminou/post-install-config)
 
 </p>
