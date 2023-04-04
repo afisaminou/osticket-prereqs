@@ -98,27 +98,20 @@ Standard Configuration ->
 Password1
 
 <p>
-<img src="https://i.imgur.com/NHm3jYC.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/dphcuFU.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p></p>
 <br />
-Typical Setup ->
-Launch Configuration Wizard (after install) ->
-Standard Configuration ->
-Password1
 
 <p>
-<img src="https://i.imgur.com/NHm3jYC.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/J7DbWem.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p></p>
 <br />
-Typical Setup ->
-Launch Configuration Wizard (after install) ->
-Standard Configuration ->
-Password1
+ Open IIS as an Admin, register PHP, then restart the server
 
 <p>
-<img src="https://i.imgur.com/NHm3jYC.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/fNTPqs0.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p></p>
 <br />
