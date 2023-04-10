@@ -170,10 +170,8 @@ Success! You made it. You have installed osTicket!
 
 <p>
 <img src="https://i.imgur.com/m0pfONL.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p></p>
 <br />
+
 Thank You for reading!
 For the the next tutorial in this series go [here](https://github.com/afisaminou/post-install-config)
 
-</p>
