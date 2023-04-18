@@ -6,11 +6,6 @@
 Widely-used the open source support system osTicket seamlessly integrates inquieries created via email, phone and web-based forms into a simple easy-to-use multi-user web interface. Manage, organize and archive all your support requests and responses in one place while providing your customers the high quality service they deserve.
 This tutorial outlines the prerequisites and installation of the open-source help desk ticketing system osTicket.<br />
 
-
-<h2>Video Demonstration</h2>
-
-- ### [YouTube: How To Install osTicket with Prerequisites](https://www.youtube.com)
-
 <h2>Technologies and Environments Used</h2>
 
 - Microsoft Azure (Virtual Machines/Compute)
